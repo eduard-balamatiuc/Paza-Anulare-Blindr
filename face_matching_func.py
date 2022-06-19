@@ -1,3 +1,4 @@
+# function for face detection with mtcnn
 from PIL import Image
 from numpy import asarray
 from mtcnn.mtcnn import MTCNN
@@ -58,3 +59,4 @@ def get_embedding(model_location, image_location):
 def cosine_similarity(vector_1, vector_2):
     distances = distance.cosine(vector_1, vector_2)
     return distances
+
